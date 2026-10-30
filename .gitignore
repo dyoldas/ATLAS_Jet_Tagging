@@ -1,0 +1,15 @@
+# Datasets
+data/
+
+# Generated training outputs
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Temporary files
+*.log

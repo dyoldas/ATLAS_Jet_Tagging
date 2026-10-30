@@ -1,0 +1,16 @@
+2025-06-16 15:08:08,762 - INFO - Loaded model: standard (DeepSets=False, Multi=False)
+2025-06-16 15:08:10,146 - INFO - Accuracy at threshold 0.5 = 0.8412
+2025-06-16 15:08:14,564 - INFO - 
+Best threshold (F1 optimized) = 0.4555
+2025-06-16 15:08:15,044 - INFO - --- Threshold = 0.5 ---
+2025-06-16 15:08:15,044 - INFO - Precision          = 0.8727
+2025-06-16 15:08:15,044 - INFO - Recall             = 0.8967
+2025-06-16 15:08:15,045 - INFO - F1 Score           = 0.8845
+2025-06-16 15:08:15,045 - INFO - Balanced Accuracy  = 0.8103
+2025-06-16 15:08:16,510 - INFO - --- Threshold = 0.4555 ---
+2025-06-16 15:08:16,511 - INFO - Precision          = 0.8612
+2025-06-16 15:08:16,511 - INFO - Recall             = 0.9105
+2025-06-16 15:08:16,511 - INFO - F1 Score           = 0.8852
+2025-06-16 15:08:16,511 - INFO - Balanced Accuracy  = 0.8004
+2025-06-16 15:08:19,133 - INFO - Saved AUC vs Jet Mass plot to: outputs/BinaryJets_1/plots/auc_vs_mass.png
+2025-06-16 15:08:19,135 - INFO - Saved evaluation plots to outputs/BinaryJets_1/plots/

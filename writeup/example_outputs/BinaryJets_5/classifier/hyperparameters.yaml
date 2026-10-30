@@ -1,0 +1,10 @@
+activation: ReLU
+architecture: standard
+final: Sigmoid
+hidden_dim: 128
+input_dim: 11
+multi: false
+output_dim: 1
+use_batchnorm: true
+use_deepset: false
+use_dropout: true

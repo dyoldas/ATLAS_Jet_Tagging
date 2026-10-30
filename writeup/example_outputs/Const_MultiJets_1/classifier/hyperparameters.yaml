@@ -1,0 +1,10 @@
+activation: ReLU
+architecture: standard
+final: Softmax
+hidden_dim: 128
+input_dim: 5
+multi: true
+output_dim: 3
+use_batchnorm: true
+use_deepset: true
+use_dropout: false

@@ -1,0 +1,15 @@
+2025-06-15 23:11:42,990 - INFO - Loaded model: standard (DeepSets=True, Multi=False)
+2025-06-15 23:11:49,017 - INFO - Accuracy at threshold 0.5 = 0.8189
+2025-06-15 23:11:55,967 - INFO - 
+Best threshold (F1 optimized) = 0.3961
+2025-06-15 23:11:56,470 - INFO - --- Threshold = 0.5 ---
+2025-06-15 23:11:56,470 - INFO - Precision          = 0.8595
+2025-06-15 23:11:56,470 - INFO - Recall             = 0.8749
+2025-06-15 23:11:56,470 - INFO - F1 Score           = 0.8671
+2025-06-15 23:11:56,470 - INFO - Balanced Accuracy  = 0.7886
+2025-06-15 23:11:58,047 - INFO - --- Threshold = 0.3961 ---
+2025-06-15 23:11:58,048 - INFO - Precision          = 0.8324
+2025-06-15 23:11:58,048 - INFO - Recall             = 0.9163
+2025-06-15 23:11:58,048 - INFO - F1 Score           = 0.8723
+2025-06-15 23:11:58,048 - INFO - Balanced Accuracy  = 0.7662
+2025-06-15 23:11:58,999 - INFO - Saved evaluation plots to outputs/Const_BinaryJets_2/plots/

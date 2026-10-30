@@ -1,0 +1,38 @@
+training:
+  # Options: BinaryJets, BinaryWeightedJets, FeatureWeightedJets, MultiJets, MultiWeightedJets, 
+  # ConstituentBinaryJets, ConstituentBinaryWeightedJets, ConstituentMultiJets, ConstituentMultiWeightedJets
+  dataset_type: ConstituentBinaryWeightedJets
+
+  # === Paths to HDF5 files ===
+  qcd_path: data/qcd_small.h5
+  top_path: data/top_small.h5
+  wz_path: data/wz_small.h5
+
+  qcd_const_path: data/qcd_const.h5
+  top_const_path: data/top_const.h5
+  wz_const_path: data/wz_const.h5
+
+  # === Dataset setup ===
+  batch_size: 256
+  frac_train: 0.75
+  frac_val: 0.15
+  seed: 36   # Controls reproducible shuffling (other options: 1333, 36, 10, ...)
+  augment: True   # Only used for constituent-level datasets
+
+  # === BinaryWeightedJets-specific ===
+  four_vector_cut: False   # Only applies if dataset_type is BinaryWeightedJets or MultiWeightedJets
+
+  # === Model architecture ===
+  architecture: "standard"   # Options: standard, deep, downsized (Also applies to DeepSet submodules)
+  hidden_dim: 128
+  use_dropout: True
+  use_batchnorm: True
+
+  # === Optimization ===
+  learning_rate: 0.001
+  epoch_count: 20
+  weight_regularization: True
+  weight_decay: 0.01
+
+  # === Evaluation threshold ===
+  threshold: 0.5   # Used only for binary classification evaluation

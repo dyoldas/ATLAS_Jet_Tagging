@@ -1,0 +1,5 @@
+2025-06-15 21:51:22,840 - INFO - Loaded model: standard (DeepSets=False, Multi=True)
+2025-06-15 21:51:24,759 - INFO - 
+Balanced Accuracy  = 0.7603
+2025-06-15 21:51:24,759 - INFO - Weighted F1 Score  = 0.7713
+2025-06-15 21:51:25,184 - INFO - Saved evaluation plots to outputs/MultiJets_3/plots/
