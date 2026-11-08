@@ -209,13 +209,3 @@ In the `writeup/example_outputs/` directory, I provided example training & evalu
     - **training_summary.png:** Basic training summary plot.
 
 If you run `evaluate.py` for a given test run, you will get more plots under `plots/` and a log file summarizing evaluation.
-
----
-
-## Notes
-
-For any questions, please contact me (Deniz Yoldas) via:
-- email: Deniz.Yoldas@etu.unige.ch
-- phone: +41 76 622 35 51
-
-Best Regards,
